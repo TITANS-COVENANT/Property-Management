@@ -1,0 +1,112 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header, footer {
+    background-color: #f0f0f0;
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Header styles */
+  .logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    text-align: center;
+  }
+  
+  /* Auth forms styles */
+  .auth-forms {
+    display: flex; /* Make forms display side-by-side */
+  }
+  
+  .form-wrapper {
+    display: flex; /* Forms sit within a container with flexbox */
+    width: 100%; /* Forms take up full width */
+  }
+  
+  .login-form,
+  .signup-form {
+    flex: 1; /* Each form takes up half the available space */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 20px; /* Space between forms */
+  }
+  
+  .signup-form {
+    margin-right: 0; /* Remove margin for the last form */
+  }
+  
+  .login-form h2,
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .login-form input,
+  .signup-form input,
+  .login-form button,
+  .signup-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-form label,
+  .signup-form label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .login-form button,
+  .signup-form button {
+    background-color: #4CAF50; /* Green color for buttons */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover,
+  .signup-form button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  

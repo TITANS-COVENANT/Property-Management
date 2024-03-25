@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streamline Property Management - Properties</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <?php include 'navigation.php'; ?>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Find Your Perfect Rental Property</h2>
+        <p>Browse our listings of available properties and find your dream home.</p>
+        <form action="#">
+          <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter City or Zip Code">
+          </div>
+          <div class="form-group">
+            <label for="bedrooms">Bedrooms:</label>
+            <select id="bedrooms" name="bedrooms">
+              <option value="">Any</option>
+              <option value="1">1 Bedroom</option>
+              <option value="2">2 Bedrooms</option>
+              <option value="3">3+ Bedrooms</option>
+            </select>
+          </div>
+          <button type="submit">Search Properties</button>
+        </form>
+      </div>
+    </section>
+    <section class="properties">
+      <div class="container">
+        <h2>Available Properties</h2>
+        <ul class="property-list">
+          <li>
+            <a href="property-detail.html">
+              <img src="images/property1.jpg" alt="Property Image">
+              <div class="info">
+                <h3>123 Main Street</h3>
+                <p>2 bedrooms, 1 bathroom, 1,200 sq ft</p>
+                <p>Rent: $1,500/month</p>
+              </div>
+            </a>
+          </li>
+          </ul>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

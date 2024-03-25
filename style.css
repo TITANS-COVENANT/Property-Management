@@ -1,0 +1,156 @@
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;  /* Add a background color */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;  /* Remove default padding */
+    margin: 0;  /* Remove default margin */
+  }
+  
+  nav li {
+    display: inline-block;  /* Display list items inline */
+    margin-right: 20px;  /* Add space between list items */
+  }
+  
+  nav a {
+    text-decoration: none;  /* Remove underline from links */
+    color: #333;  /* Set link color */
+    font-weight: bold;  /* Make links bold */
+  }
+  
+  nav a:hover {
+    color: #000;  /* Change link color on hover */
+  }
+
+  
+
+/* Reset styles */
+---------------------------------------------
+---------------------------------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add these styles to your main style.css file */
+-----------------------------------------------------
+----------------------------------------------------
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+  }
+  
+  .hero form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .hero form .form-group {
+    margin-right: 20px;
+    flex-basis: 45%;
+  }
+  
+  .hero form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .hero button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .benefit-card img {
+    width: 80px; /* Adjust width as needed for your icon size */
+    height: 80px; /* Adjust height to maintain aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio and scale image to fit within dimensions */
+  }
+  
